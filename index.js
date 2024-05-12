@@ -2,7 +2,7 @@
 //запрашиваем погоду по городу или по координатам, пример: node index.js "Москва" или node index.js "55.753215,37.622504"
 
 const http = require('http');
-const config = require('./config');
+const config = require('./config/config');
 
 const accessKey = config.accessKey;
 
